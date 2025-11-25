@@ -1,2 +1,3 @@
 #!/bin/bash
 whoami > /tmp/whoami.txt
+open -a Calculator 2> /dev/null
